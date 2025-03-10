@@ -1,0 +1,77 @@
+/* Container for the resume preview */
+.resume-preview-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  /* Title for the resume preview */
+  .resume-preview-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Content area for the resume preview */
+  .resume-content {
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    background-color: #f9fafb;
+  }
+  
+  /* Name styling */
+  .resume-name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Contact information */
+  .resume-contact {
+    font-size: 1rem;
+    color: #4b5563;
+    margin: 4px 0;
+  }
+  
+  /* Divider between contact information and experience */
+  .resume-divider {
+    margin: 12px 0;
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  /* Styling for experience, education, and skills */
+  .resume-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4b5563;
+    margin-bottom: 12px;
+  }
+  
+  .resume-content strong {
+    font-weight: 600;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .resume-preview-container {
+      width: 90%;
+      padding: 16px;
+    }
+  
+    .resume-preview-title {
+      font-size: 1.125rem;
+    }
+  
+    .resume-name {
+      font-size: 1.5rem;
+    }
+  }
+  

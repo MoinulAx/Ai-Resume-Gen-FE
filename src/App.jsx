@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ResumeForm from "./components/ResumeForm";
 import ResumePreview from "./components/ResumePreview";
+import "./App.css";
 
 function App() {
   const [formData, setFormData] = useState({
@@ -24,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+
